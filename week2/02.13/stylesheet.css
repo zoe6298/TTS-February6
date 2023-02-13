@@ -1,0 +1,51 @@
+/* target all <p> tags within a <div> and make the text red */
+div p {
+    color: red;
+  }
+
+  /* target all <div> and <p> tags on the page and make their text blue */
+  div, p {
+    color: blue;
+  }
+
+p {
+    color: red;
+    text-align: center;
+  }
+#green-text {
+    color: #00ff00;
+}
+.text-align-left {
+    text-align: left;
+}
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+p {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+
+  div.static {
+    position: static;
+    border: 3px solid #73AD21;
+  }
