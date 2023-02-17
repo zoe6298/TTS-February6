@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-weight: bold;
+}
+.navbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    background-color: red;
+    height: 100%;
+    font-size: 22px;
+    padding: 7px;
+
+}
+.navbar-links ul{
+    display: flex;
+    margin: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1rem;
+    display: block;
+}
+.navbar-links a:hover {
+    background-color: red;
+}
+.navbar-links a:active {
+    background-color: green;
+}
+
+/* searchbox */
+
+.wrapper {
+    position: relative;
+    display: flex;
+}
+#searchbox {
+    height: 22px;
+}
+.searchimage {
+    height: 100%;
+    /* horizontally center the image within its container */
+    margin: auto;
+    padding: 4px;
+    background-color: #00ffff;
+    /* change the image color from black to white */
+    filter: invert(100%);
+    
+}
+/* sign-in-section */
+.signin-wrapper {
+    font-size: small;
+    margin: auto 0;
+}
+.wrapper img {
+    width: 12px;
+    filter: invert(100%)
+}
+#viewcart {
+    justify-content: flex-end;
+}
+.wrapper a {
+    margin-left: 5px;
+}
+/* body */
+.grid-container {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    border: 10px solid white;
+    height: 500px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    
+}
+.grid-item {
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+.grid-item:hover {
+    color: red;
+}
+
+/* shadow effect to submit button when hover */
+#submit:hover {
+    text-shadow: 2px 2px red;
+
+}
+
+/* footer */
+.footer-wrapper {
+    position: relative;
+    min-height: 100vh;
+    font-family: 'Zeyada', cursive;
+    
+}
+#footer {
+    bottom: 0;
+    position: absolute;
+    color: white;
+    background-color: black;
+    width: 200%;
+    text-align: center;
+    
+
+}
+#footer-sign {
+    background-color: red;
+}
